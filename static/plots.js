@@ -20,7 +20,7 @@ function fetchData() {
     .then(function (data) {
       schoolsData = data;
       schoolMap();
-      populateSchoolCodeDropdown();
+      populateSchoolNameDropdown();
       showDefaultChart();
       createDoughnut();
       populatePostcodeDropdown(data);
@@ -132,7 +132,10 @@ function adjustTableHeight(numRows) {
 }
 
 // Function to populate the school select dropdown with school names
-function populateSchoolCodeDropdown() {
+function populateSchoolNameDropdown() {
+  // Sort schoolsData by School_Name alphabetically
+  schoolsData.sort((a, b) => a.School_Name.localeCompare(b.School_Name));
+
   schoolsData.forEach((school) => {
     const option = document.createElement("option");
     option.value = school.Code;
