@@ -182,6 +182,8 @@ function updateChart() {
           {
             label: "Number of Students",
             data: [
+              school.Students_KIN,
+              school.Students_PPR,
               school.Students_Y01,
               school.Students_Y02,
               school.Students_Y03,
