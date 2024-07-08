@@ -1,6 +1,6 @@
 # Project 3 Group 5
 
-## **_Group 3 Group Members:_** <br/>
+## **_Group 5 Group Members:_** <br/>
 
 Daniel Alejandro Usuga Marin <br/>
 Truptiben Ratilal Radadiya <br/>
@@ -19,8 +19,11 @@ The dataset is publicly available and can be accessed here:<br/>
 
 ## **_Script and Related Files_** <br/>
 
-All files that were used to build this visualization can be found in the Group's respository on GitHub located here:<br/>
-[Github Repository](https://github.com/dausugam/project_3_Group_5)
+All files that were used to build this visualization can be found in this repository.
+
+## **_Link to Schools Dashboard_** <br/>
+Test out our interactive dashboard for yourself - it's located here:<br/>
+[Schools in WA Dashboard](https://dausugam.github.io/project_3_Group_5/)
 
 Thank you for visiting the project!
 
